@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=tr">
+<html lang="tr">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />

@@ -1,6 +1,5 @@
 <?php
-
-define("MyCLASS", $_SERVER['DOCUMENT_ROOT'] . "/classes/"); 
+define("MyCLASS", $_SERVER['DOCUMENT_ROOT'] . "/Ders5/classes/"); 
 // DataBaseSystem.php dosyamız ana dizinde yer alan classes klasöründe yer alıyor.
 // define ile de ilgili klasör yolunu bir sabit olarka MyCLASS ismiyle tanımladık. 
 
