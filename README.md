@@ -6,3 +6,4 @@ www.mustafabukulmez.com Sitesinde verilen PHP derslerinin yer aldığı repodur.
 * Ders 3 -> https://mustafabukulmez.com/2022/01/24/php-programlamada-gerekli-bilgiler-1/
 * Ders 4 -> https://mustafabukulmez.com/2022/01/26/php-string-isleme-metotlari/
 * Ders 5 -> https://mustafabukulmez.com/2022/02/25/php-class-kullanimi/
+* Ders 6 -> https://mustafabukulmez.com/2022/02/25/php-input-format-kontrolleri-yapmak/
