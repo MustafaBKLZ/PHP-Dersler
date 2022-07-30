@@ -7,3 +7,5 @@ www.mustafabukulmez.com Sitesinde verilen PHP derslerinin yer aldığı repodur.
 * Ders 4 -> https://mustafabukulmez.com/2022/01/26/php-string-isleme-metotlari/
 * Ders 5 -> https://mustafabukulmez.com/2022/02/25/php-class-kullanimi/
 * Ders 6 -> https://mustafabukulmez.com/2022/02/25/php-input-format-kontrolleri-yapmak/
+* Ders 7 -> https://mustafabukulmez.com/2022/07/26/php-cookie-kullanimi-ve-guvenligi/
+* Ders 8 -> https://mustafabukulmez.com/2022/02/25/php-input-format-kontrolleri-yapmak/
