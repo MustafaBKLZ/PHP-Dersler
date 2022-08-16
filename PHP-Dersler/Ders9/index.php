@@ -26,10 +26,27 @@ if (isset($_POST["button_pressed"])) {
 
         $mail->isHTML(true);
         $mail->Subject = 'Konu';
-        $mail->Body    = 'HTML Mesajı. <b>Kalın ifade ve <i>italik</i> ifade </b> ';
-        $mail->AltBody = 'HTML olmayan posta istemcileri için düz metin gövdesi';
-        // $mail->Send();
+        // $mail->Body    = 'HTML Mesajı. <b>Kalın ifade ve <i>italik</i> ifade </b> ';
+        // $mail->AltBody = 'HTML olmayan posta istemcileri için düz metin gövdesi';
+        
 
+        /* Ders 10'un kodları*/
+        $variables = array();
+        $variables['adsoyad'] = $user_Name . " " . $user_Surname;
+        $variables['aktivasyonlinki'] = $user_Link2;
+        $template = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/MailHTMLs/mail-template.html");
+        foreach($variables as $key => $value)
+        {
+            $template = str_replace('{{ '.$key.' }}', $value, $template);
+        }
+        $mail_body = $template;
+        $mail->MsgHTML($mail_body);
+        /* Ders 10'un kodları*/
+        
+        
+        // $mail->Send();
+        
+        
         echo "Posta başarıyla gönderildi!";
     } catch (Exception $e) {
         echo "Mesaj gönderilemedi. Posta Hatası: {$mail->ErrorInfo}";
